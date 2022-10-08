@@ -1,0 +1,4 @@
+python -m venv .\VENV-ACM		//Esto es para crear el entorno virtual con su nombre
+.\VENV-ACM\Scripts\activate	//Esto es para activar el entorno virtual y ejecutar el pip install o sacar los requerimientos
+pip install -r requirements.txt	//Esto es para instalar los requerimientos del entorno virtual, este archivo debe estar en la raíz de la carpeta del proyecto
+pip freeze > requirements.txt		//Esto es para crear los requerimientos del entrono virtual donde empezó el proyecto
